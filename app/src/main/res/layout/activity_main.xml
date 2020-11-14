@@ -13,9 +13,10 @@
         android:orientation="vertical">
 
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/relativeLayoutPBar">
             <androidx.core.widget.ContentLoadingProgressBar
                 android:layout_width="200dp"
                 android:layout_height="200dp"
@@ -27,7 +28,27 @@
                 android:max="100"
                 android:progress="65"
                 />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/centerText"
+                    android:text="0%"
+                    android:textSize="30dp"
+                    android:layout_centerInParent="true"
+                    />
         </RelativeLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonDonate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INVEST MORE"
+                android:backgroundTint="#38ff6d"
+                android:textColor="#EEEEEE"
+                android:layout_below="@+id/progressBar"
+                android:layout_centerHorizontal="true"
+                />
+
+
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
