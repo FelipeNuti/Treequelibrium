@@ -1,4 +1,4 @@
-package com.example.treequelibrium;
+package com.example.treequilibrium;
 
 import androidx.appcompat.app.AppCompatActivity;
 
