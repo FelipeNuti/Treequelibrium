@@ -42,6 +42,7 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toTopOf="@+id/lineChart"
             android:layout_marginBottom="15dp"
+            android:layout_marginTop="20dp"
             app:layout_constraintTop_toBottomOf="@+id/logoLayout">
             <androidx.core.widget.ContentLoadingProgressBar
                 android:layout_width="275dp"
@@ -83,7 +84,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toTopOf="@+id/buttonDonate"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="30dp"
             app:layout_constraintTop_toBottomOf="@+id/relativeLayoutPBar"
             />
     <androidx.appcompat.widget.AppCompatButton

@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     private List<Entry> getData()
     {
         double[] params = {10, 5, 0, 2.8};
-        PriceDataGenerator pdg = new PriceDataGenerator(2000, 0.1, 0, params);
+        PriceDataGenerator pdg = new PriceDataGenerator(2000, 0.01, 0.0, params);
         return pdg.getPriceData();
     }
 
